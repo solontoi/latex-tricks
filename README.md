@@ -1,5 +1,6 @@
 # latex-tricks
 A repository of various useful latex things I have made
+
 Current contents:
 
 ####AtwoodsMachine.tex
