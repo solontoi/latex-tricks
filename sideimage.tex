@@ -1,0 +1,44 @@
+\documentclass[tikz]{article}
+\usepackage{tikz}
+
+\begin{document}
+
+I got fed up with having to choose between using \texttt{wrapfig} or using \texttt{enumerate} so I use the following \texttt{minipage} sets to place a small illustration to the right or left of an item in the \texttt{enumerate} environment. Very handy in making problem sets. Instead of using a \texttt{tikz} drawing one could easily use \texttt{includegraphics} to stick a .png, or some such there.
+
+
+\begin{enumerate}
+
+%%%%%%%
+% Here is an enumerated item with an image to the right
+%%%%%%%
+\begin{minipage}{0.7\textwidth}
+\item Here is an image to the right side of the enumerate environment.
+\end{minipage} \hfill
+\hspace{.5cm}
+\begin{minipage}{0.2\textwidth}
+\begin{tikzpicture}
+\draw [fill] (0,0) circle [radius=0.5];
+\draw [fill] (0,1) circle [radius=0.5];
+\draw [fill] (.85,.5) circle [radius=0.5];
+\end{tikzpicture}
+\end{minipage}
+
+
+%%%%%%%
+% Here is an enumerated item with an image to the left
+%%%%%%%
+\begin{minipage}{0.2\textwidth}
+\begin{tikzpicture}
+\draw [fill] (0,0) circle [radius=0.5];
+\draw [fill] (0,1) circle [radius=0.5];
+\draw [fill] (.85,.5) circle [radius=0.5];
+\end{tikzpicture}
+\end{minipage}  \hfill
+\hspace{.5cm}
+\begin{minipage}{0.7\textwidth}
+\item Here is an image to the left side of the enumerate environment.
+\end{minipage}
+
+\end{enumerate}
+
+\end{document}
