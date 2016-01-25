@@ -9,6 +9,9 @@ A tikz figure of a three-mass Atwood's machine. Pretty easy to fidget with the p
 ####d-bar.tex
 While writing up material on thermal physics, I couldn't find a satisfactory "d-bar" symbol for use in improper derivatives, so I made one, defined by the new command here.
 
+####dogdirt.tex
+I like custom math symbols. This is an example of defines an image file as the symbol. Here I define \poop as the unicode "dog dirt" image. I trimmed the raw graphic a bit to fit inline better. There are better ways of getting unicode characters into a document, but this works for any image.
+
 ####sideimage.tex
 I'm sad that \wrapfig doesn't work inside of enumerate or itemize environments, so I mashed up a pair of minipages as shown in this file that place an image to the right or left of an item in an enumerated list. I use this a lot in writing problem sets.
 
