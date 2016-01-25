@@ -1,0 +1,27 @@
+\documentclass[12pt]{article}
+
+% need amsmath and graphicx packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+% this defines an image file as the symbol. Here I define \poop as 
+% the unicode "dog dirt" image.
+\newcommand{\poop}{\mathord{\includegraphics[height=2.6ex]{./images/pile_of_poo2.png}}}
+
+\begin{document}
+
+% Use your new symbol in math mode inline
+I made an inline $\poop$ symbol. Joy of joys.
+
+
+% or in math mode
+\[
+\left( \boldsymbol{\sqrt{ \left( -\poop \right) }} \right)^2
+\]
+
+% or as a formal equation for fame and fortune.
+\begin{equation}
+\poop^4 = \left(\poop\times\poop\times\poop\times\poop\right)
+\end{equation}
+
+\end{document}
