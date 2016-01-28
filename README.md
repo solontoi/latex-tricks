@@ -12,7 +12,7 @@ While writing up material on thermal physics, I couldn't find a satisfactory "d-
 ####dogdirt.tex
 I like custom math symbols. This is an example of defines an image file as the symbol. Here I define \poop as the unicode "dog dirt" image. I trimmed the raw graphic a bit to fit inline better. There are better ways of getting unicode characters into a document, but this works for any image.
 
-####examboxes.tex
+####examboxe.tex
 Snipet of latex to draw a nice box for students to write their answer in for exams.
 
 ####letterhead.tex
