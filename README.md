@@ -12,8 +12,13 @@ While writing up material on thermal physics, I couldn't find a satisfactory "d-
 ####dogdirt.tex
 I like custom math symbols. This is an example of defines an image file as the symbol. Here I define \poop as the unicode "dog dirt" image. I trimmed the raw graphic a bit to fit inline better. There are better ways of getting unicode characters into a document, but this works for any image.
 
-####sideimage.tex
-I'm sad that \wrapfig doesn't work inside of enumerate or itemize environments, so I mashed up a pair of minipages as shown in this file that place an image to the right or left of an item in an enumerated list. I use this a lot in writing problem sets.
+####examboxes.tex
+Snipet of latex to draw a nice box for students to write their answer in for exams.
 
 ####letterhead.tex
 Proper syntax to use the wallpaper package to make a specified .pdf the background image for a document. I use this to write letters on a .pdf of the college letterhead, hence the filename.
+
+####sideimage.tex
+I'm sad that \wrapfig doesn't work inside of enumerate or itemize environments, so I mashed up a pair of minipages as shown in this file that place an image to the right or left of an item in an enumerated list. I use this a lot in writing problem sets.
+
+
