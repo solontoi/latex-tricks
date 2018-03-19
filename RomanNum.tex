@@ -1,0 +1,12 @@
+
+% ### I sometimes want to write roman numerals without it
+% ### looking like the capital I and V of the current font.
+
+\makeatletter
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+
+% ### Usage
+
+The Roman Numeral for ``1'' \rom{1}.
+The Roman Numeral for ``27'' \rom{27}.
