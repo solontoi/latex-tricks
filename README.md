@@ -24,4 +24,5 @@ I sometimes want to write roman numerals without it looking like the capital I a
 #### sideimage.tex
 I'm sad that \wrapfig doesn't work inside of enumerate or itemize environments, so I mashed up a pair of minipages as shown in this file that place an image to the right or left of an item in an enumerated list. I use this a lot in writing problem sets.
 
-
+#### twitter.tex
+Command for instering the twitter bird symbol for twitter handles in tex
